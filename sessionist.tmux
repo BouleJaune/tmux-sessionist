@@ -20,7 +20,7 @@ tmux_option_promote_window="@sessionist-promote-window"
 default_key_bindings_join_pane="t"
 tmux_option_join_pane="@sessionist-join-pane"
 
-default_key_bindings_kill_session="X"
+default_key_bindings_kill_session="k"
 tmux_option_kill_session="@sessionist-kill-session"
 
 source "$CURRENT_DIR/scripts/helpers.sh"
