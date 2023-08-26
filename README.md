@@ -4,6 +4,8 @@ Lightweight tmux utilities for manipulating tmux sessions.
 
 Tested and working on Linux, OSX and Cygwin.
 
+Fork that changes some behavior, like removing confirmation prompt for killing sessions and bindings.
+
 ### Problem(s)
 
 Sessions are a second class citizen in tmux environment:
