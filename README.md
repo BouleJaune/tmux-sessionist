@@ -21,9 +21,9 @@ This plugin solves the above problems.
 - `prefix + g` - prompts for session name and switches to it. Performs 'kind-of'
   name completion.<br/>
   Faster than the built-in `prefix + s` prompt for long session lists.
-- `prefix + C` (shift + c) - prompt for creating a new session by name.
-- `prefix + X` (shift + x) - kill current session without detaching tmux.
-- `prefix + S` (shift + s) - switches to the last session.<br/>
+- `prefix + C` (ctrl+b + c) - prompt for creating a new session by name.
+- `prefix + K` (ctrl+b + k) - kill current session without detaching tmux.
+- `prefix + S` (ctrl+b + s) - switches to the last session.<br/>
   The same as built-in `prefix + L` that everyone seems to override with
   some other binding.
 - `prefix + @` - promote current pane into a new session.<br/>
